@@ -1,0 +1,15 @@
+# Never commit secrets / credentials
+*.key
+*credential*.json
+.env
+.env.*
+
+# n8n local data
+.n8n/
+
+# OS / editor junk
+.DS_Store
+*.swp
+.exported.json
+
+.claude/

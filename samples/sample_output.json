@@ -1,0 +1,22 @@
+{
+  "_comment": "REAL output captured from a live end-to-end run (Gemini 2.5 Flash) using the sample JD + resume. Numbers/wording will vary slightly per run because the AI generates them.",
+
+  "final_output_strong_fit_branch": {
+    "decision": "Strong Fit (85/100)",
+    "next_step": "Send interview invitation email",
+    "email_subject": "Interview Invitation",
+    "email_body": "Hi,\n\nThank you for applying. Based on your background, we'd love to invite you to an interview.\n\nWhy you're a strong match: Aisha is a strong Backend Engineer candidate with 4 years of Python experience, excellent SQL skills, and significant experience building REST APIs with FastAPI. She demonstrates proficiency in Git, Docker, and CI/CD practices. The primary gaps are explicit experience with Kubernetes and documenting REST APIs.\n\nWe'll reach out shortly to schedule a time.\n\nBest regards,\nRecruiting Team",
+    "matched_skills": ["Python", "SQL", "REST API design", "Git", "Docker", "Build REST APIs", "CI/CD"],
+    "missing_skills": ["Kubernetes", "Document REST APIs"]
+  },
+
+  "intermediate_ai_output_from_gemini": {
+    "fit_score": 85,
+    "matched_skills": ["Python", "SQL", "REST API design", "Git", "Docker", "Build REST APIs", "CI/CD"],
+    "missing_skills": ["Kubernetes", "Document REST APIs"],
+    "years_experience": 4,
+    "summary": "Aisha is a strong Backend Engineer candidate with 4 years of Python experience, excellent SQL skills, and significant experience building REST APIs with FastAPI. She demonstrates proficiency in Git, Docker, and CI/CD practices. The primary gaps are explicit experience with Kubernetes and documenting REST APIs.",
+    "strengths": ["Strong Python + REST API background", "Production-scale FastAPI experience", "Solid SQL/PostgreSQL"],
+    "concerns": ["No explicit Kubernetes experience"]
+  }
+}
